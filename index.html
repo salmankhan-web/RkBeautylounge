@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RK Beauty Lounge - Premium Beauty Services in Rawalpindi | Book Now</title>
+    <meta name="description" content="Discover premium beauty services at RK Beauty Lounge in Rawalpindi. Waxing, Braids, Hairstyling, Microblading, Laser Hair Removal, Makeup & more. Book your appointment today!">
+    <meta name="keywords" content="beauty salon rawalpindi, rk beauty lounge, waxing, braids, hairstyling, microblading, laser hair removal, makeup, Rawalpindi beauty services">
+    <meta name="author" content="RK Beauty Lounge">
+    <link rel="canonical" href="https://www.rkbeautylounge.com/">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo.jpg" alt="RK Beauty Lounge Logo">
+            </div>
+            <ul id="navMenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#booking">Book Appointment</a></li>
+            </ul>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1 class="animate-on-scroll zoom-in">Welcome to RK Beauty Lounge</h1>
+            <p class="animate-on-scroll zoom-in">Experienced Artist, Professional Beautician & Hair Stylist. We cater to both males and females with a clean and welcoming environment.</p>
+            <a href="#booking" class="hero-button animate-on-scroll zoom-in">Book Appointment</a>
+        </div>
+        <img src="home.jpg" alt="RK Beauty Lounge" class="animate-on-scroll bounce-up">
+    </section>
+
+    <!-- Mobile Video Slider -->
+    <section id="videos">
+        <h2>Our Beauty Videos</h2>
+        <div class="video-slider">
+            <div class="video-slider-container" id="videoSlider">
+                <div class="video-slide">
+                    <video autoplay muted playsinline preload="auto" onended="nextSlide()">
+                        <source src="videoA.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="video-slide">
+                    <video autoplay muted playsinline preload="auto" onended="nextSlide()">
+                        <source src="videoB.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="video-slide">
+                    <video autoplay muted playsinline preload="auto" onended="nextSlide()">
+                        <source src="videoC.mp4" type="video/mp4">
+                    </video>
+                </div>
+              <!--  <div class="video-slide">
+                    <video autoplay muted playsinline preload="auto" onended="nextSlide()">
+                        <source src="Video10.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="video-slide">
+                    <video autoplay muted playsinline preload="auto" onended="nextSlide()">
+                        <source src="Video1.mp4" type="video/mp4">
+                    </video>
+                </div>-->
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services">
+        <h2 class="animate-on-scroll">Our Services</h2>
+
+           <div class="services-grid">
+                         <div class="service-card animate-on-scroll rotate-in">
+                <img src="https://images.unsplash.com/photo-1629397685944-7073f5589754?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Hairstyling">
+                <h3>Hairstyling</h3>
+                <p>Professional hairstyling for any occasion.</p>
+                <div class="price">Rs. 5500</div>
+            </div>  
+               
+            <div class="service-card animate-on-scroll rotate-in">
+                <img src="https://images.unsplash.com/photo-1626900518888-089abc4577a6?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fE1haWtlLXVwJTIwU2VydmljZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=1200" alt="Make-up Service">
+                <h3>Make-up Services</h3>
+                <p>Professional makeup for every event.</p>
+                <div class="price">Rs. 4500</div>
+            </div>         
+            
+            
+            <div class="service-card animate-on-scroll rotate-in">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhBlOpD2pIEJPfKnFfbm1cXM9IvhL4hGw3egMo__1cJTrcOszxC-aevZQ&s=10" alt="Body Waxing">
+                <h3>Body Waxing</h3>
+                <p>Smooth and flawless skin with our gentle body waxing treatments.</p>
+                <div class="price">Rs. 4500</div>
+            </div>
+            <div class="service-card animate-on-scroll rotate-in">
+                <img src="https://images.unsplash.com/photo-1612690207805-a3c172ea6e8c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fEJyYWlkc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=1200" alt="Braids">
+                <h3>Braids</h3>
+                <p>Versatile braiding styles to suit your unique style.</p>
+                <div class="price">Rs. 8000</div>
+            </div>
+            <div class="service-card animate-on-scroll rotate-in">
+                <img src="https://images.squarespace-cdn.com/content/v1/5d6b3013248be40001de4764/1627105736090-5WL2HOIZBTT868TYOLO1/Screenshot+2021-07-24+134752.jpg" alt="Brazilian Waxing">
+                <h3>Brazilian Waxing</h3>
+                <p>Precise and comfortable Brazilian waxing.</p>
+                <div class="price">Rs. 6000</div>
+            </div>
+            <div class="service-card animate-on-scroll rotate-in">
+                <img src="https://images.unsplash.com/photo-1698335107935-e2c8287c4947?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fEVXZWJyb3clMjBUaHJlYWRpbmd8ZW58MHx8MHx8fHww&auto=format&fit=crop&q=60&w=1200" alt="Eyebrow Threading">
+                <h3>Eyebrow Threading</h3>
+                <p>Expert threading for perfectly shaped eyebrows.</p>
+                <div class="price">Rs. 2500</div>
+            </div>
+            <div class="service-card animate-on-scroll rotate-in">
+                <img src="https://images.unsplash.com/photo-1622399591207-269e63936861?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Tanning">
+                <h3>Tanning</h3>
+                <p>Safe and even spray tanning for a golden glow.</p>
+                <div class="price">$50</div>
+            </div>  
+            <div class="service-card animate-on-scroll rotate-in">
+                <img src="https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8SGFpciUyMEV4dGVuc3Rpb25zfGVufDB8fHwwfHx8fDA%3D&auto=format&fit=crop&q=60&w=1200" alt="Hair Extensions">
+                <h3>Hair Extensions</h3>
+                <p>Seamless hair extensions for added length and volume.</p>
+                <div class="price">Rs. 15000</div>
+            </div>
+            <div class="service-card animate-on-scroll rotate-in">
+                <img src="https://images.unsplash.com/photo-1629397685944-7073f5589754?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Hairstyling">
+                <h3>Hairstyling</h3>
+                <p>Professional hairstyling for any occasion.</p>
+                <div class="price">Rs. 5500</div>
+            </div>
+            <div class="service-card animate-on-scroll rotate-in">
+                <img src="https://images.unsplash.com/photo-1713085085470-fba013d67e65?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Laser Hair Removal">
+                <h3>Laser Hair Removal</h3>
+                <p>Advanced laser treatments for long-lasting results.</p>
+                <div class="price">Rs. 20000</div>
+            </div>
+            <div class="service-card animate-on-scroll rotate-in">
+                <img src="https://images.unsplash.com/photo-1747823490854-7b3b833b5b06?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fE1pY3JvYmxhZGluZyUyMGV5ZWJyb3dzfGVufDB8fHwwfHx8fDB8fHww&auto=format&fit=crop&q=60&w=1200" alt="Microblading">
+                <h3>Microblading</h3>
+                <p>Semi-permanent eyebrow enhancement.</p>
+                <div class="price">Rs. 30000</div>
+            </div>
+            <div class="service-card animate-on-scroll rotate-in">
+                <img src="https://images.unsplash.com/photo-1656446154209-aa489759f0e3?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDN8fFBlZGljdXJlfGVufDB8fHwwfHx8fDB8fHww&auto=format&fit=crop&q=60&w=1200" alt="Pedicure">
+                <h3>Pedicure</h3>
+                <p>Relaxing pedicure to pamper your feet.</p>
+                <div class="price">Rs. 3500</div>
+            </div>
+            
+            <div class="service-card animate-on-scroll rotate-in">
+                <img src="https://images.unsplash.com/photo-1599206676335-193c82b13c9e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fE1hbmljdXJlfGVufDB8fHwwfHx8fDB8fHww&auto=format&fit=crop&q=60&w=1200" alt="Manicure">
+                <h3>Manicure</h3>
+                <p>Luxurious manicure for beautiful nails.</p>
+                <div class="price">Rs. 3000</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" style="background: #f4f4f4;">
+        <h2 class="animate-on-scroll">Gallery</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item animate-on-scroll rotate-in">
+                <img src="GalleryA.jpg" alt="RK Beauty Lounge">
+            </div>
+            <div class="gallery-item animate-on-scroll rotate-in">
+                <img src="GalleryB.jpg" alt="RK Beauty Lounge">
+            </div>
+            <div class="gallery-item animate-on-scroll rotate-in">
+                <img src="GalleryC.jpg" alt="RK Beauty Lounge">
+            </div>
+            <div class="gallery-item animate-on-scroll rotate-in">
+                <img src="GalleryD.jpg" alt="RK Beauty Lounge">
+            </div>
+            <div class="gallery-item animate-on-scroll rotate-in">
+                <video controls poster="posterA.jpg">
+                    <source src="videoA.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="gallery-item animate-on-scroll rotate-in">
+                <video controls poster="posterB.jpg">
+                    <source src="videoB.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="gallery-item animate-on-scroll rotate-in">
+                <video controls poster="posterC.jpg">
+                    <source src="videoC.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="gallery-item animate-on-scroll rotate-in">
+                <video controls poster="posterD.jpg">
+                    <source src="videoD.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="gallery-item animate-on-scroll rotate-in">
+                <video controls poster="posterE.jpg">
+                    <source src="videoE.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <h2 class="animate-on-scroll zoom-in">About Us</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p class="animate-on-scroll zoom-in">Established in 2010, RK Beauty Lounge has been providing premium beauty services in Rawalpindi. Our certified professionals use the latest techniques to make you look and feel beautiful.</p>
+            </div>
+            <img src="logo.jpg" alt="RK Beauty Lounge">
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" style="background: #f4f4f4;">
+        <h2 class="animate-on-scroll">What Our Clients Say</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card animate-on-scroll bounce-up">
+                <p>"Amazing service! My hair looks fabulous. Highly recommend!"</p>
+                <div class="author">- Anna Smith</div>
+            </div>
+            <div class="testimonial-card animate-on-scroll bounce-up">
+                <p>"The best bridal makeup I've ever had."</p>
+                <div class="author">- Rachel Green</div>
+            </div>
+            <div class="testimonial-card animate-on-scroll bounce-up">
+                <p>"Facial treatment was relaxing and effective."</p>
+                <div class="author">- John Doe</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section - WhatsApp Connected -->
+    <section id="booking">
+        <h2 class="animate-on-scroll">Book Appointment</h2>
+        <div class="booking-form animate-on-scroll">
+            
+            
+            <form id="whatsappForm" onsubmit="sendToWhatsApp(event)">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email (Optional)">
+                <input type="tel" id="phone" placeholder="Phone Number" required>
+                <select id="gender" required>
+                    <option value="">Select Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+                <select id="service" required>
+                    <option value="">Select a Service</option>
+                    <option value="Body Waxing">Body Waxing</option>
+                    <option value="Braids">Braids</option>
+                    <option value="Brazilian Waxing">Brazilian Waxing</option>
+                    <option value="Eyebrow Threading">Eyebrow Threading</option>
+                    <option value="Hair Extensions">Hair Extensions</option>
+                    <option value="Hairstyling">Hairstyling</option>
+                    <option value="Laser Hair Removal">Laser Hair Removal</option>
+                    <option value="Microblading">Microblading</option>
+                    <option value="Pedicure">Pedicure</option>
+                    <option value="Make-up Services">Make-up Services</option>
+                    <option value="Manicure">Manicure</option>
+                </select>
+                <input type="date" id="date" required>
+                <input type="time" id="time" required>
+                <textarea id="message" placeholder="Additional Message (Optional)" rows="4"></textarea>
+                
+                <button type="submit">Book Now </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" style="background: #f4f4f4;">
+        <h2 class="animate-on-scroll">Contact Us</h2>
+        <div class="contact-grid">
+            <div class="contact-card animate-on-scroll glow-scale">
+                <i class="fas fa-phone"></i>
+                <a href="tel:+92 344 4038369">+92 344 4038369</a>
+            </div>
+            <div class="contact-card animate-on-scroll glow-scale">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:aqib41002@gmail.com">rbkhan1780@gmail.com</a>
+            </div>
+            <div class="contact-card animate-on-scroll glow-scale">
+                <i class="fas fa-map-marker-alt"></i>
+                <a href="https://maps.app.goo.gl/BMzsF7TDAc1BHHCm6">Rk Beauty lounge D-17, Islamabad</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="quick-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#booking">Book Appointment</a></li>
+                </ul>
+            </div>
+            <div class="legal">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="follow-us">
+                <h4>Follow Us</h4>
+                <ul>
+                    <li><a href="https://www.facebook.com/share/1J1UUKd6Ur/" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.instagram.com/rkbeautylounge_official?igsh=c2pyNnVzdDNkd2U3" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://youtube.com/@rbkhan8360?si=cPepMfl67LNSEFA_" title="YouTube"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="https://www.tiktok.com/@rk_beautylounge_official?_r=1&_t=ZS-95Ys9SfC2Gu" title="TikTok"><i class="fab fa-tiktok"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="footer-text">&copy; 2026 RK Beauty Lounge. All rights reserved.</p>
+        <p class="footer-text">Created by <a href="https://skwebstudio.netlify.app/">SK Web Studio</a></p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
